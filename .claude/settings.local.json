@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Recurse \"c:\\\\Users\\\\kader\\\\Desktop\\\\smartheart-workspace\\\\hearth\\\\src\" -Name)",
+      "Bash(Sort-Object)",
+      "PowerShell(Resolve-DnsName \"vvjmblxyyhbxqiueeoaq.supabase.co\" -ErrorAction SilentlyContinue)",
+      "PowerShell($content = Get-Content \"C:\\\\Users\\\\kader\\\\Desktop\\\\smartheart-workspace\\\\hearth\\\\.gitignore\" -Raw; $bytes = [System.Text.Encoding]::UTF8.GetBytes\\($content\\); $bytes[\\($bytes.Length - 20\\)..\\($bytes.Length - 1\\)] | ForEach-Object { [string]::Format\\(\"{0:X2}\", $_\\) })"
+    ]
+  }
+}
